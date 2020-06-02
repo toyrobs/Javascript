@@ -15,13 +15,7 @@ function myEach(arr,callback)
 		}
 }
 
-
 myEach([1,2,3,4], num =>console.log(num))
-
-
-
-
-
 
 
 
