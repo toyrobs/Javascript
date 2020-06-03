@@ -6,3 +6,8 @@ Without using the native “Array.prototype.some” method of JavaScript,
   */
 /*
 */
+function mySome(arr,callback)
+{
+	callback(arr(i));
+}
+myReduce([1,2,3], obj =>console.log(obj))

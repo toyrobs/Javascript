@@ -12,9 +12,8 @@ Without using the native “Object.values()” method of JavaScript, compose a f
      }
    for(let i=0; i<obj.length;i++)
    {
-   	if(obj(i))
-   	{
+   	
    		console.log(grabvalues(obj))
-   	}
+   	
    }
  }

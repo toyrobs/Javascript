@@ -10,8 +10,8 @@ Without using the native “Array.prototype.reduce” method of JavaScript, comp
  	
   for(let i=0; i<arr.length;i++)
   {
-  	callback=arr[i];
+  	callback+=arr[i];
 
   }
  }
-myReduce([1,2,3], num =>console.log(num))
+myReduce([1,2,3], obj =>console.log(obj))
