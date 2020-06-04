@@ -13,5 +13,6 @@ function myindexOf(array,targ)
 
    return i
  	}
- return -1
+ 	
+return -1
 }
