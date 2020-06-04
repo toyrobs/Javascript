@@ -6,15 +6,16 @@ Without using the native “Array.prototype.map” method of JavaScript,
  function on each of those elements.
 */  
 
- const arr = [1,2,3,4];
 
-function myMap(arr,callback)
+function myMap(array,callback) 
 {
-	for(let i =0; i< arr.length; i++) 
+	let newarray=[];
+	for(let i =0; i< array.length; i++) 
 		{
-			callback(arr[i]);
+			newarr[i]=callback(arr[i]);
 		}
+		return newarray
 }
 
 
-myMap([1,2,3,4], num =>console.log(num))
+

@@ -6,9 +6,9 @@ Without using the native “Array.prototype.forEach” method of JavaScript, com
 */
 
 
-function myEach(arr,callback)
+function myEach(array,callback)
 {
-	for(let i =0; i< arr.length; i++) 
+	for(let i =0; i< array.length; i++) 
 		{
 			callback(arr[i]);
 		}
@@ -18,3 +18,4 @@ myEach([1,2,3,4], num =>console.log(num))
 
 
 
+//array1.forEach(element => console.log(element))

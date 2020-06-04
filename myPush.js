@@ -6,11 +6,9 @@ Without using the native “Array.prototype.push” method of JavaScript, compos
   */
   function myPush(array,element)
   {
- for(let i = 0; i< array.length;i++)
- {
- 	let newarray =arr;
- 	newarraay[newarraay.length]= item
- }
-return newarray
+  	
+    let newarray =array
+ 	array[newarray.length]= element
+ 	return newarray
 }
-myEach([1,2,3,4], num =>console.log(num))
+myPush([1,2,3,4], num =>console.log(num))

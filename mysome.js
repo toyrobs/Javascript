@@ -14,5 +14,6 @@ function mySome(arr,callback,)
      		return true
      	} 	
       }
+   
 }
 console.log(mySome([1,2,3,4], element=>element %2 === 0))
