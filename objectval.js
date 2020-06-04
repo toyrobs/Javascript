@@ -5,15 +5,14 @@ Without using the native “Object.values()” method of JavaScript, compose a f
  */
 
  
- function grabValues(key,obj)
+ function grabValues(obj)
  {
- 	const obj = {
- 	a:'me',b:12, c:true
-     }
-   for(let i=0; i<obj.length;i++)
+ 	let valuearr = []
+   for(key in obj)
    {
    	
-   		console.log(grabvalues(obj))
+   		valuearr.push(obj[key])
    	
    }
+   return valuearr
  }
