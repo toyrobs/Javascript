@@ -8,12 +8,12 @@ in an object and return all of the keys of the key:value pairs of that object.
  
  function grabKeys(obj)
  {
- 	let valuearr = []
+ 	let valuearray = []
    for(key in obj)
    {
    	
-   		valuearr.push(obj[key])
+   		valuearray.push(obj[key])
    	
    }
-   return valuearr
+   return valuearray
  }
