@@ -7,7 +7,16 @@ function titled “myFilter” that will take in an array of elements and execut
 callback function on each of those elements.
 */
 
-function myFilter(arr,callback)
+function myFilter(array,callback)
 {
-	
+let newarray=[];
+	for(let i =0; i< array.length; i++) 
+		{
+			if(callback(arr[i]))
+			{
+			newarray[i]=push(arr[i]);	
+			}
+			
+		}
+		return newarray
 }

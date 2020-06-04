@@ -11,4 +11,3 @@ Without using the native “Array.prototype.push” method of JavaScript, compos
  	array[newarray.length]= element
  	return newarray
 }
-myPush([1,2,3,4], num =>console.log(num))

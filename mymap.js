@@ -12,7 +12,7 @@ function myMap(array,callback)
 	let newarray=[];
 	for(let i =0; i< array.length; i++) 
 		{
-			newarr[i]=callback(arr[i]);
+			newarray[i]=callback(array[i]);
 		}
 		return newarray
 }
